@@ -20,7 +20,7 @@ pygmentsStyle = "native" # other dark style options: vim, fruity, monokai
 pygmentsCodeFences = true
 
 [params]
-  twitter = "twitter id"
+  facebook = "coderoodnetwerk"
   email = "myemail"
 
 [params.colors]
