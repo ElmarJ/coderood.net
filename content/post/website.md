@@ -1,10 +1,12 @@
 ---
-title: We hebben een nieuwe website!
+title: >-
+  Gemeente biedt geen onderdak aan dakloze ongedocumenteerden - Roep om hulp aan
+  de stad
 date: 2019-04-15T10:00:00.000Z
 ---
 PERSBERICHT /// 15 april //
 
-## GEMEENTE BIEDT GEEN ONDERDAK AAN DAKLOZE ONGEDOCUMENTEERDEN - ROEP OM HULP AAN DE STAD
+## 
 
 Afgelopen weekend kon de groep van 50 ongedocumenteerde dakloze jongeren en kwetsbare ouderen overnachten in een woongroep in Amsterdam Noord, nadat zij een week lang van kerk naar kerk waren getrokken. Vandaag om 9 uur staan zij weer op straat, zonder zicht op een plek om te overnachten. Code Rood Netwerk roept organisaties, particulieren en netwerken op om samen naar een oplossing te zoeken. Pakhuis De Zwijger faciliteert de brainstorm.
 
@@ -16,4 +18,4 @@ Pakhuis de Zwijger en Amsterdam City Rights organiseren daarom een hulpoverleg o
 
 Amsterdam City Rights is een onafhankelijke denktank door en voor ongedocumenteerden en vluchtelingen in limbo en komt op voor hun mensenrechten zoals het recht op onderdak, onderwijs, zelfontplooiing, kortom: het recht op een menswaardig bestaan.
 
-Meer informatie: [https://dezwijger.nl/programma/recht-op-onderdak-en-zorg/](https://dezwijger.nl/programma/recht-op-onderdak-en-zorg/)
+Meer informatie: <https://dezwijger.nl/programma/recht-op-onderdak-en-zorg/>
