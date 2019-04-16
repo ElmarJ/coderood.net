@@ -17,8 +17,6 @@
 {{ partial "theme-colors.css" . | safeCSS }}
 </style>
 
-{{ template "_internal/google_analytics_async.html" . }}
-
 <title>
 {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
 {{ if eq $url "/" }}
@@ -27,5 +25,7 @@
     {{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}
 {{ end }}
 </title>
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 </head>
