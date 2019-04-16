@@ -21,7 +21,7 @@ pygmentsCodeFences = true
 
 [params]
   facebook = "coderoodnetwerk"
-  email = "myemail"
+  email = "coderoodnetwerk@gmail.com"
 
 [params.colors]
   # hugo-dusk colors
