@@ -1,5 +1,7 @@
 ---
-title: Over ons
+title: "Over ons"
+menu: "main"
+weight: 100
 ---
 # Wat is het Code Rood Netwerk?
 
