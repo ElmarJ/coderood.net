@@ -14,6 +14,8 @@ collections:
         fields: # The fields for each document, usually in front matter
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Menu Group", name: "menu", widget: "string"}
+          - {label: "Menu Order", name: "weight", widget: "number"}
 
       - name: "donate"
         label: "Doneren"
@@ -21,6 +23,8 @@ collections:
         fields: # The fields for each document, usually in front matter
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Menu Group", name: "menu", widget: "string"}
+          - {label: "Menu Order", name: "weight", widget: "number"}
   - name: "posts"
     label: "Nieuwsberichten"
     folder: "content/post"
