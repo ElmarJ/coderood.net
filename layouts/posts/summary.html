@@ -2,11 +2,17 @@
 
   <header>
     <h5 class="title">{{ .Title }}</h5>
+    <div class="meta">
+      <b>{{ .Date.Format "Jan 2, 2006" }}</b>
+    </div>
   </header>
 
-  <main class="summary">
+  <div class="summary">
     {{ .Summary }}
     <a href='{{ .Permalink }}' class="rmore">Lees meer...</a>
-  </main>
+  </div>
+
+  <div class="rmore">
+  </div>
 
 </article>

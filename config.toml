@@ -6,6 +6,7 @@ languageCode = "nl-NL"
 paginate = 3
 defaultContentLanguage = "nl"
 enableGitInfo = true
+summaryLength = 30
 
 SectionPagesMenu = "main"
 
