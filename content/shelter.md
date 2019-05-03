@@ -1,8 +1,8 @@
-+++
-title = "Noodopvang"
-menu = "main"
-weight = 100
-+++
+---
+title: Noodopvang
+menu: main
+weight: 100
+---
 
 ![shelter](/uploads/banner1.jpeg)
 
@@ -18,11 +18,14 @@ Nu deze 10 dappere Amsterdammers van de woongroep deze maand opvang faciliteren 
 
 Wij hopen op jullie steun en namens alle betrokkenen zijn we jullie heel dankbaar!
 
+<https://www.geef.nl/nl/actie/noodopvang-50-ongedocumenteerde-amsterdammers/donateurs>
+
 Wil je ook praktisch iets bijdragen:
 
 - Deel deze actie: via whatsapp, social media en email!
-- In de maand mei kun je ook bijdragen met activiteiten en vrijwilligerswerk mail naar: programma@stichtingbildung.nl 
+- In de maand mei kun je ook bijdragen met activiteiten en vrijwilligerswerk mail naar: <programma@stichtingbildung.nl> 
 - Op deze facebookpagina's vind je meer info:
 
-https://www.facebook.com/stichtingbildung/
-https://www.facebook.com/coderoodnetwerk/
+<https://www.facebook.com/stichtingbildung/>
+
+<https://www.facebook.com/coderoodnetwerk/>
