@@ -3,7 +3,6 @@ title: Over ons
 menu: main
 weight: 1000
 ---
-![Code Rood](/uploads/56262389_310998556238610_4280767193521586176_o.jpg "Code Rood")
 
 ### Wat is het Code Rood Netwerk?
 

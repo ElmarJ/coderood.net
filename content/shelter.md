@@ -4,7 +4,7 @@ menu: main
 weight: 100
 ---
 
-![shelter](/uploads/banner1.jpeg)
+![Code Rood](/uploads/56262389_310998556238610_4280767193521586176_o.jpg "Code Rood")
 
 ### Noodopvang 50 ongedocumenteerde Amsterdammers
 

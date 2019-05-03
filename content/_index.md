@@ -4,6 +4,8 @@ menu = "main"
 weight = 10
 +++
 
+![shelter](/uploads/banner1.jpeg)
+
 Code Rood Netwerk is een onofficieel netwerk om ongedocumenteerden bij te staan om die op straat moeten overleven omdat ze niet in een gemeentelijk opvang geplaatst kunnen worden. Het is een bundeling van non-profit organisaties en burgers, die ieder eigen achterban en knowhow inbrengen zoals: tijdelijke noodbedden, knelpunten signaleren, campagne voeren.
 
 ### Code Rood Netwerk op Facebook
