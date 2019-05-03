@@ -4,13 +4,8 @@ copyright = ""
 canonifyurls = true
 languageCode = "nl-NL"
 paginate = 3
-theme = "coderood.clean"
-
-googleAnalytics = ""
-disqusShortname = ""
-
-[author]
-  name = ""
+defaultContentLanguage = "nl"
+enableGitInfo = true
 
 SectionPagesMenu = "main"
 

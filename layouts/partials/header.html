@@ -1,11 +1,12 @@
 <header class="masthead mb-auto">
   <div class="inner">
-    <h3 class="masthead-brand">{{ .Site.Title }}</h3>
-    <nav class="nav nav-masthead justify-content-center">
-            {{ $currentPage := . }}
-            {{ range .Site.Menus.main }}
-            <a class="nav-link{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
-            {{ end }}
+      <img src="/img/logo.png" class="logo">
+      <h1 class="masthead-brand">{{ .Site.Title }}</h1>
+      <nav class="nav nav-masthead justify-content-center">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <a class="nav-link{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
+        {{ end }}
     </nav>
   </div>
 </header>

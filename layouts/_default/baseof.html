@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     {{ partial "head.html" . }}
-<body class="text-center">
+<body>
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
         {{ partial "header.html" . }}
         <main>
@@ -11,5 +11,6 @@
         </main>
         {{ partial "footer.html" . }}
     </div>
+    {{ partial "scripts-footer.html" . }}
 </body>
 </html>
