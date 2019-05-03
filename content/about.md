@@ -3,11 +3,9 @@ title: Over ons
 menu: main
 weight: 1000
 ---
-### Wat is het Code Rood Netwerk?
-
 ![Code Rood](/uploads/56262389_310998556238610_4280767193521586176_o.jpg "Code Rood")
 
-Code Rood is halverwege 2018 opgericht door [Amsterdam City Rights](http://www.amsterdamcityrights.org/), [Rikko Voorberg](https://twitter.com/RikkoVb), [Wereldhuis van de Protestantse Diaconie](http://wereldhuis.org/), [Stap Verder](https://www.stapverder.info/), [Caritas Amsterdam](https://caritas-amsterdam.org/) en de [Keizersgrachtkerk](https://www.keizersgrachtkerk.nl/).
+### Wat is het Code Rood Netwerk?
 
 Code Rood Netwerk functioneert op dit moment als een onofficieel netwerk om ongedocumenteerden bij te staan om die op straat moeten overleven omdat ze niet in een gemeentelijk opvang geplaatst kunnen worden. Het is een bundeling van non-profit organisaties, die ieder eigen achterban en knowhow inbrengen, van opvangplekken tot campagne voeren.
 
