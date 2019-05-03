@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 
 <h2 class="content-list-title">
     <a href="{{ .Permalink }}" class="linktopost">{{ .Title }}</a>
@@ -14,4 +14,4 @@
 </div>
 
 
-{{ partial "footer.html" . }}
+{{ end }}

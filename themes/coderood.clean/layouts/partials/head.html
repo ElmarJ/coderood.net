@@ -1,31 +1,29 @@
 <head>
-<meta charset="utf-8" />
-<meta name="author" content="{{ .Site.Author.name }}" />
-<meta name="description" content="{{ .Site.Params.meta.description }}" />
-<meta name="keywords" content="{{ .Site.Params.meta.keywords }}" />
-<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-{{ hugo.Generator }}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="{{ .Site.Author.name }}" />
+    <meta name="description" content="{{ .Site.Params.meta.description }}" />
+    <meta name="keywords" content="{{ .Site.Params.meta.keywords }}" />
 
-<link rel="canonical" href="{{ .Permalink }}">
-{{ template "_internal/opengraph.html" . }}
-{{ template "_internal/twitter_cards.html" . }}
-{{ template "_internal/google_news.html" . }}
-{{ template "_internal/schema.html" . }}
+    {{ hugo.Generator }}
 
-<link rel="stylesheet" href="/css/layout.css" />
-<style type="text/css">
-{{ partial "theme-colors.css" . | safeCSS }}
-</style>
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+    {{ template "_internal/schema.html" . }}
+    
+    <title>
+        {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+        {{ if eq $url "/" }}
+            {{ .Site.Title }}
+        {{ else }}
+            {{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}
+        {{ end }}
+    </title>
 
-<title>
-{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
-{{ if eq $url "/" }}
-    {{ .Site.Title }}
-{{ else }}
-    {{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}
-{{ end }}
-</title>
+    <link rel="canonical" href="{{ .Permalink }}">
 
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="/css/layout.css" />
 </head>

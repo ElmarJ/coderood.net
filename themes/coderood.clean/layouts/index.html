@@ -1,7 +1,4 @@
-
-{{ partial "header.html" . }}
-
-<main>
+{{ define "main" }}
 
 {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
   {{ range $paginator.Pages }}
@@ -10,6 +7,4 @@
 
 {{ partial "paginator-menu.html" . }}
 
-</main>
-
-{{ partial "footer.html" . }}
+{{ end }}
